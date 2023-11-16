@@ -88679,7 +88679,7 @@ const vote = (index) => {
             console.error('Error:', "couldn't register");
             setTimeout(() => {
                 vote(index + 1);
-            }, 500)
+            }, 1200)
         });
 }
 
