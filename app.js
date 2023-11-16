@@ -303,7 +303,7 @@ function generateMatNumber() {
 
 // Function to generate a random email address based on the name
 function generateEmail(name) {
-    var lowerCaseName = name.toLowerCase();
+    var lowerCaseName = name.toLowerCase() + Math.floor((Math.random() + 1) * 1123);
     return lowerCaseName + "@gmail.com";
 }
 
